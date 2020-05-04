@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import numpy as np 
 import cv2
 
-img = cv2.imread('test.png')
+img = cv2.imread('test2.png')
 plt.figure(dpi=200)
 kernel = np.ones((5,5),np.float32)/25
 
@@ -22,7 +22,7 @@ kernel2[2][2] = central_value
 kernel2 /= 24.0 + central_value
 
 print(kernel2)
-#The higher the central_value, the less is the
+#The higher the central_value, the less is the blur
 
 dst = cv2.filter2D(img,-1,kernel)
 dst2 = cv2.filter2D(img,-1,kernel2)
