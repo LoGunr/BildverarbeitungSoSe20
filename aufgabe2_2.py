@@ -8,6 +8,8 @@ Dies ist eine temporäre Skriptdatei.
 import matplotlib.pyplot as plt
 import numpy as np 
 import cv2
+import kernel_function as kf
+
 
 img = cv2.imread('test2.png')
 plt.figure(dpi=200)
@@ -21,7 +23,10 @@ kernel2[2][2] = central_value
 
 kernel2 /= 24.0 + central_value
 
-print(kernel2)
+
+kernel3 = kf.calc_kernel(5,3)
+
+
 #The higher the central_value, the less is the blur
 
 dst = cv2.filter2D(img,-1,kernel)
