@@ -8,6 +8,7 @@ import numpy as np
 import scipy.stats as st
 import cv2
 from scipy import ndimage
+import sys
 
 def calc_kernel(img, size, nsig):
     
@@ -164,11 +165,53 @@ def create_jacobian(img):
     
     
 def test():
-    jacobian_xy = np.array([[1,0],[0,0.0]])
-    ew, ev = np.linalg.eig(jacobian_xy)
-    det = np.linalg.det(ev)
-    print(ew, ev, det)
+    sys.setrecursionlimit(100000)
+    print(sys.getrecursionlimit())
     
                 
-    
-    
+def get_eight_neighbours(x, y, shape):
+    out = []
+    maxx = shape[1]-1
+    maxy = shape[0]-1
+
+    #top left
+    outx = min(max(x-1,0),maxx)
+    outy = min(max(y-1,0),maxy)
+    out.append((outx,outy))
+
+    #top center
+    outx = x
+    outy = min(max(y-1,0),maxy)
+    out.append((outx,outy))
+
+    #top right
+    outx = min(max(x+1,0),maxx)
+    outy = min(max(y-1,0),maxy)
+    out.append((outx,outy))
+
+    #left
+    outx = min(max(x-1,0),maxx)
+    outy = y
+    out.append((outx,outy))
+
+    #right
+    outx = min(max(x+1,0),maxx)
+    outy = y
+    out.append((outx,outy))
+
+    #bottom left
+    outx = min(max(x-1,0),maxx)
+    outy = min(max(y+1,0),maxy)
+    out.append((outx,outy))
+
+    #bottom center
+    outx = x
+    outy = min(max(y+1,0),maxy)
+    out.append((outx,outy))
+
+    #bottom right
+    outx = min(max(x+1,0),maxx)
+    outy = min(max(y+1,0),maxy)
+    out.append((outx,outy))
+
+    return out
