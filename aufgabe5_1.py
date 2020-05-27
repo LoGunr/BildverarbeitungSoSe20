@@ -11,12 +11,7 @@ import numpy as np
 import kernel_function as kf
 import cv2
 import random
-import sys
 
-
-
-#img = cv2.imread('mrt.jpg', cv2.IMREAD_GRAYSCALE)#
-#img = cv2.imread('logo1.png', cv2.IMREAD_GRAYSCALE)#
 original = cv2.imread('test2.png')#
 img = cv2.imread('test2.png', cv2.IMREAD_GRAYSCALE)#
 plt.figure(dpi=700)

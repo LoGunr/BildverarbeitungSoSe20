@@ -3,10 +3,12 @@ import cv2 as cv
 from win32api import GetSystemMetrics
 import matplotlib.pyplot as plt
 import numpy as np 
+import kernel_function as kf
 
 #the [x, y] for each right-click event will be stored here
 right_clicks = [0, 0]
 img = cv.imread("F:/Dokumente/Bildverarbeitung/Bildverarbeitung/grayscale.png", 0)
+#img = cv.imread("rotation1.jpg", 0)
 #img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 plt_img = plt.imread("test.png")
@@ -50,32 +52,43 @@ def region_grow(img, threshold):
     orig_size = dims[0]*dims[1]
     result_pic = np.zeros_like(img)
 
-    result_list = []
-    processed_pix = []
+    to_be_processed = []
+    processed = []
 
     #starting with position at mouseclick
-    start_pix = right_clicks
+    start_pix = (right_clicks[1], right_clicks[0])
     #initializing region mean. Value of start point
-    region_mean = float(img[right_clicks[0], right_clicks[1]])
+    mean_value = 0
+    size = 0
+    
+    start_value = img[start_pix[0],start_pix[1]]
+    dist = 0
 
     #append cur_pix to list
-    result_list.append(start_pix)
-
-    while(len(result_list) > 0):
-        pix = result_list[0]
+    to_be_processed.append(start_pix)
+    while(threshold - dist > 0 and len(to_be_processed) > 0):
+        cur_pix = to_be_processed[0]
         #color pixel in result pic like in original
-        result_pic[pix[0],pix[1]] = img[pix[0],pix[1]]
+        cur_value = img[cur_pix[0],cur_pix[1]]
+        #color pixel in result pic like in original
+        if abs(int(cur_value) - int(start_value)) < threshold:
+            result_pic[cur_pix[0],cur_pix[1]] = cur_value
+            mean_value = (size*mean_value + img[cur_pix[0],cur_pix[1]])/(size+1)
+            
+            #result_pic[cur_pix[0],cur_pix[1]] = img[cur_pix[0],cur_pix[1]]
+    
+            for coord in kf.get_eight_neighbours(cur_pix[0], cur_pix[1], dims):
+                if not coord in processed:
+                    to_be_processed.append(coord)    
+                processed.append(coord)
 
-        for coord in get_four_neighbours(pix[0], pix[1], dims):
-            dist_to_start_pix = abs(int(value_of_start_pix) - int(img[coord[0], coord[1]]))
-            print(coord, dist_to_start_pix)
-            if ((dist_to_start_pix < threshold)):
-                if not coord in processed_pix:
-                    result_list.append(coord)    
-                processed_pix.append(coord)
-        result_list.pop(0)
+        
+        dist = abs(start_value - mean_value)
+        size+=1
+        to_be_processed.pop(0)
         cv.imshow("progress",result_pic)
         cv.waitKey(1)
+        #print(size, mean_value, threshold)
     #direction to be checked from cur_pix
     #neighbour_dirs = [(1, 0), (0, 1), (-1, 0), (0, -1)]
      
@@ -97,7 +110,7 @@ def mouse_callback(event, x, y, flags, params):
         #this just verifies that the mouse data is being collected
         #you probably want to remove this later
        
-        region_grow(img, 5)
+        region_grow(img, 24)
 
 #path_image = urllib.urlretrieve("http://www.bellazon.com/main/uploads/monthly_06_2013/post-37737-0-06086500-1371727837.jpg", "local-filename.jpg")[0]
 scale_width = 640 / img.shape[1]

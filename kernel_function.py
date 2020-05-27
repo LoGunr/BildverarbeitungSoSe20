@@ -215,3 +215,33 @@ def get_eight_neighbours(x, y, shape):
     out.append((outx,outy))
 
     return out
+
+def get_four_neighbours(x, y, shape):
+    # resulting neighbours
+    out_pix = []
+    #alwas check if we`re close to border
+    border_x = shape[1]-1
+    border_y = shape[0]-1
+    
+    #left
+    outx = min(max(x-1,0),border_x)
+    outy = y
+    out_pix.append((outx,outy))
+    
+    #right
+    outx = min(max(x+1,0),border_x)
+    outy = y
+    out_pix.append((outx,outy))
+
+    #top
+    outx = x
+    outy = min(max(y-1,0),border_y)
+    out_pix.append((outx,outy))
+
+    #bottom
+    outx = x
+    outy = min(max(y+1,0),border_y)
+    out_pix.append((outx,outy))
+    
+    return out_pix
+    
