@@ -7,11 +7,11 @@ import kernel_function as kf
 
 #the [x, y] for each right-click event will be stored here
 right_clicks = [0, 0]
-img = cv.imread("F:/Dokumente/Bildverarbeitung/Bildverarbeitung/grayscale.png", 0)
+img = cv.imread("grayscale.png", 0)
 #img = cv.imread("rotation1.jpg", 0)
 #img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
-plt_img = plt.imread("test.png")
+#plt_img = plt.imread("test.png")
 
 
 def get_four_neighbours(x, y, shape):
@@ -46,7 +46,7 @@ def get_four_neighbours(x, y, shape):
     
 def region_grow(img, threshold):
     print (right_clicks)
-
+    
     #create empty image with size of the picture
     dims = img.shape
     orig_size = dims[0]*dims[1]

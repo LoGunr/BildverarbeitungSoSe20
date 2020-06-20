@@ -223,11 +223,6 @@ def get_four_neighbours(x, y, shape):
     border_x = shape[1]-1
     border_y = shape[0]-1
     
-    #left
-    outx = min(max(x-1,0),border_x)
-    outy = y
-    out_pix.append((outx,outy))
-    
     #right
     outx = min(max(x+1,0),border_x)
     outy = y
@@ -237,6 +232,11 @@ def get_four_neighbours(x, y, shape):
     outx = x
     outy = min(max(y-1,0),border_y)
     out_pix.append((outx,outy))
+    
+    #left
+    outx = min(max(x-1,0),border_x)
+    outy = y
+    out_pix.append((outx,outy))
 
     #bottom
     outx = x
@@ -244,4 +244,83 @@ def get_four_neighbours(x, y, shape):
     out_pix.append((outx,outy))
     
     return out_pix
+
+
+def get_four_neighbours_ext(x, y, shape):
+    # resulting neighbours
+    out_pix = []
+    #alwas check if we`re close to border
+    border_x = shape[1]-1
+    border_y = shape[0]-1
+    
+    #right
+    outx = min(max(x+1,0),border_x)
+    outy = y
+    out_pix.append(((outx,outy),0))
+
+    #top
+    outx = x
+    outy = min(max(y-1,0),border_y)
+    out_pix.append(((outx,outy),1))
+    
+    #left
+    outx = min(max(x-1,0),border_x)
+    outy = y
+    out_pix.append(((outx,outy),2))
+
+    #bottom
+    outx = x
+    outy = min(max(y+1,0),border_y)
+    out_pix.append(((outx,outy),3))
+    
+    return out_pix
+    
+
+def get_eight_neighbours_ext(x, y, shape):
+    out = []
+    maxx = shape[1]-1
+    maxy = shape[0]-1
+
+    #right
+    outx = x
+    outy = min(max(y+1,0),maxy)
+    out.append(((outx,outy),0))
+
+    
+    #top right
+    outx = min(max(x-1,0),maxx)
+    outy = min(max(y+1,0),maxy)
+    out.append(((outx,outy),1))
+    
+    #top
+    outx = min(max(x-1,0),maxx)
+    outy = y
+    out.append(((outx,outy),2))
+    
+    #top left
+    outx = min(max(x-1,0),maxx)
+    outy = min(max(y-1,0),maxy)
+    out.append(((outx,outy),3))
+
+    #left
+    outx = x
+    outy = min(max(y-1,0),maxy)
+    out.append(((outx,outy),4))
+    
+    #bottom left
+    outx = min(max(x+1,0),maxx)
+    outy = min(max(y-1,0),maxy)
+    out.append(((outx,outy),5))
+    
+    #bottom
+    outx = min(max(x+1,0),maxx)
+    outy = y
+    out.append(((outx,outy),6))
+    
+    #botom right
+    outx = min(max(x+1,0),maxx)
+    outy = min(max(y+1,0),maxy)
+    out.append(((outx,outy),7))    
+    
+    return out
     

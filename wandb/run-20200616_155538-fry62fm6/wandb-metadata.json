@@ -1,0 +1,23 @@
+{
+    "root": "C:/Users/logun/Documents/BildverarbeitungSoSe20/BildverarbeitungSoSe20",
+    "program": "C:\\Users\\logun\\Documents\\BildverarbeitungSoSe20\\BildverarbeitungSoSe20\\aufgabe8_2.py",
+    "git": {
+        "remote": "https://github.com/LoGunr/BildverarbeitungSoSe20.git",
+        "commit": "2232ca9da5fd157fdd2eb801251c3846a5747401"
+    },
+    "email": "63962958+LoGunr@users.noreply.github.com",
+    "startedAt": "2020-06-16T15:55:38.345224",
+    "host": "LAPTOP-OCMDP8EL",
+    "username": "logun",
+    "executable": "C:\\Coding\\Anaconda\\python.exe",
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.7",
+    "cpu_count": 8,
+    "args": [],
+    "state": "running",
+    "jobType": null,
+    "mode": "run",
+    "name": "unique-voice-7",
+    "project": "ml-class",
+    "heartbeatAt": "2020-06-16T15:55:42.017065"
+}
