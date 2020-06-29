@@ -14,6 +14,7 @@ img = cv2.imread('test3.jpg')
 plt.figure(dpi=300)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+print(img)
 
 hist, bins = np.histogram(img.flatten(), 256,[0,256])
 
