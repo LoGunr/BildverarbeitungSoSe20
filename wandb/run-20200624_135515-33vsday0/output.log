@@ -1,0 +1,28 @@
+Epoch 1/10
+Traceback (most recent call last):
+  File "plot_mnist_array.py", line 73, in <module>
+    callbacks=[WandbCallback(labels=labels, data_type="image")])
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\keras\engine\training.py", line 66, in _method_wrapper
+    return method(self, *args, **kwargs)
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\keras\engine\training.py", line 848, in fit
+    tmp_logs = train_function(iterator)
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\def_function.py", line 580, in __call__
+    result = self._call(*args, **kwds)
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\def_function.py", line 644, in _call
+    return self._stateless_fn(*args, **kwds)
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\function.py", line 2420, in __call__
+    return graph_function._filtered_call(args, kwargs)  # pylint: disable=protected-access
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\function.py", line 1665, in _filtered_call
+    self.captured_inputs)
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\function.py", line 1746, in _call_flat
+    ctx, args, cancellation_manager=cancellation_manager))
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\function.py", line 598, in call
+    ctx=ctx)
+  File "Z:\Coding\Anaconda\lib\site-packages\tensorflow\python\eager\execute.py", line 60, in quick_execute
+    inputs, attrs, num_outputs)
+tensorflow.python.framework.errors_impl.UnknownError:  Failed to get convolution algorithm. This is probably because cuDNN failed to initialize, so try looking to see if a warning log message was printed above.
+	 [[node sequential/conv2d/Conv2D (defined at plot_mnist_array.py:73) ]] [Op:__inference_train_function_684]
+
+Function call stack:
+train_function
+

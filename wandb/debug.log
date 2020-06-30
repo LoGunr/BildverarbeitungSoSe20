@@ -1,322 +1,74 @@
-2020-06-17 12:44:32,968 DEBUG   MainThread:16496 [wandb_config.py:_load_defaults():133] no defaults not found in config-defaults.yaml
-2020-06-17 12:44:33,602 DEBUG   MainThread:16496 [meta.py:_setup_code_git():49] probe for git information
-2020-06-17 12:44:33,770 DEBUG   MainThread:16496 [run_manager.py:__init__():547] Initialized sync for cnn_test/3rz4aykk
-2020-06-17 12:44:33,779 INFO    MainThread:16496 [run_manager.py:wrap_existing_process():1147] wrapping existing process 18600
-2020-06-17 12:44:34,576 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:34,784 INFO    MainThread:16496 [run_manager.py:init_run():926] system metrics and metadata threads started
-2020-06-17 12:44:34,793 INFO    MainThread:16496 [run_manager.py:init_run():965] upserting run before process can begin, waiting at most 10 seconds
-2020-06-17 12:44:35,296 INFO    Thread-21 :16496 [run_manager.py:_upsert_run():1054] saving pip packages
-2020-06-17 12:44:35,299 INFO    Thread-21 :16496 [run_manager.py:_upsert_run():1056] initializing streaming files api
-2020-06-17 12:44:35,300 INFO    Thread-21 :16496 [run_manager.py:_upsert_run():1063] unblocking file change observer, beginning sync with W&B servers
-2020-06-17 12:44:35,300 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:44:35,300 INFO    MainThread:16496 [run_manager.py:wrap_existing_process():1164] informing user process we are ready to proceed
-2020-06-17 12:44:35,304 INFO    MainThread:16496 [run_manager.py:_sync_etc():1296] entering loop for messages from user process
-2020-06-17 12:44:35,575 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\config.yaml
-2020-06-17 12:44:35,787 INFO    MainThread:16496 [run_manager.py:_sync_etc():1319] received message from user process: {"save_policy": {"glob": "model-best.h5", "policy": "live"}}
-2020-06-17 12:44:35,961 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:35,961 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\requirements.txt
-2020-06-17 12:44:36,584 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:44:36,587 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\graph\graph_summary_fed733c8.graph.json
-2020-06-17 12:44:36,588 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\graph
-2020-06-17 12:44:36,588 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media
-2020-06-17 12:44:39,598 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:41,615 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:44,633 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:47,654 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:49,661 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:51,670 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:44:52,675 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:54,685 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:44:57,702 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:00,709 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:03,727 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:45:03,729 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:45:03,734 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_0.png
-2020-06-17 12:45:03,736 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\model-best.h5
-2020-06-17 12:45:03,737 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media
-2020-06-17 12:45:03,737 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:45:04,735 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:04,735 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:45:07,753 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:07,754 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:45:12,795 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:14,811 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:17,838 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:20,859 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:22,872 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:23,879 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:45:25,893 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:28,919 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:31,951 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:34,992 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:36,006 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:45:37,018 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:39,031 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:45:41,058 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:45:41,058 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\model-best.h5
-2020-06-17 12:45:41,058 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:45:41,062 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_1.png
-2020-06-17 12:45:41,062 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:45:42,067 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:45,081 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:48,104 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:51,123 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:53,138 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:55,145 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:45:56,152 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:45:58,164 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:01,187 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:03,217 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:06,244 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:07,253 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:46:09,265 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:11,281 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:46:17,635 ERROR   Thread-22 :16496 [retry.py:__call__():108] Retry attempt failed:
-Traceback (most recent call last):
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connection.py", line 157, in _new_conn
-    (self._dns_host, self.port), self.timeout, **extra_kw
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
-    raise err
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
-    sock.connect(sa)
-socket.timeout: timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 672, in urlopen
-    chunked=chunked,
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 376, in _make_request
-    self._validate_conn(conn)
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 994, in _validate_conn
-    conn.connect()
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connection.py", line 300, in connect
-    conn = self._new_conn()
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connection.py", line 164, in _new_conn
-    % (self.host, self.timeout),
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x000002BB53AF8988>, 'Connection to api.wandb.ai timed out. (connect timeout=10)')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Coding\Anaconda\lib\site-packages\requests\adapters.py", line 449, in send
-    timeout=timeout
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 720, in urlopen
-    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
-  File "C:\Coding\Anaconda\lib\site-packages\urllib3\util\retry.py", line 436, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000002BB53AF8988>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Coding\Anaconda\lib\site-packages\wandb\retry.py", line 95, in __call__
-    result = self._call_fn(*args, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\wandb\apis\internal.py", line 108, in execute
-    return self.client.execute(*args, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\gql\client.py", line 52, in execute
-    result = self._get_result(document, *args, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\gql\client.py", line 60, in _get_result
-    return self.transport.execute(document, *args, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\gql\transport\requests.py", line 38, in execute
-    request = requests.post(self.url, **post_args)
-  File "C:\Coding\Anaconda\lib\site-packages\requests\api.py", line 119, in post
-    return request('post', url, data=data, json=json, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\requests\api.py", line 61, in request
-    return session.request(method=method, url=url, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\requests\sessions.py", line 530, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\requests\sessions.py", line 643, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Coding\Anaconda\lib\site-packages\requests\adapters.py", line 504, in send
-    raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x000002BB53AF8988>, 'Connection to api.wandb.ai timed out. (connect timeout=10)'))
-2020-06-17 12:46:23,359 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:26,385 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:46:26,386 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:46:26,387 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_2.png
-2020-06-17 12:46:26,388 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:46:27,401 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:27,402 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:46:30,428 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:33,462 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:36,511 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:38,535 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:38,536 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:46:41,565 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:43,593 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:46:44,606 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:47,649 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:50,680 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:52,704 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:55,744 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:58,771 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:46:59,781 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:47:01,793 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:04,814 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:06,820 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:47:06,821 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\model-best.h5
-2020-06-17 12:47:06,823 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:47:06,824 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_3.png
-2020-06-17 12:47:06,825 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:47:08,831 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:09,847 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:47:11,863 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:14,891 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:15,902 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:47:17,928 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:19,973 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:22,998 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:26,019 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:29,053 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:32,084 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:32,086 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:47:34,097 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:37,123 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:40,168 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:41,182 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:47:43,200 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:47,245 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:47:47,245 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\model-best.h5
-2020-06-17 12:47:47,245 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:47:47,245 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_4.png
-2020-06-17 12:47:47,249 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:47:48,257 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:48,262 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:47:51,288 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:53,300 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:56,321 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:47:59,353 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:02,370 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:04,389 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:48:05,403 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:07,423 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:10,450 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:12,473 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:48:13,489 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:16,516 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:19,541 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:19,542 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:48:21,552 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:23,568 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:48:23,569 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:48:23,569 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_5.png
-2020-06-17 12:48:23,570 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:48:25,592 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:27,610 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:30,638 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:32,669 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:35,701 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:35,701 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:48:37,745 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:40,778 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:43,801 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:43,801 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:48:46,847 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:49,891 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:51,914 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:51,918 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:48:54,960 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:48:57,995 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:48:57,999 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:48:57,999 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_6.png
-2020-06-17 12:48:58,003 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:49:00,011 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:03,037 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:06,067 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:08,097 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:08,098 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:49:11,135 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:14,182 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:15,190 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:49:16,203 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:19,243 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:22,300 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:24,328 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:24,328 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:49:27,355 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:30,392 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:32,406 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:37,486 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:49:37,487 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:37,488 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:49:37,489 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_7.png
-2020-06-17 12:49:37,490 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:49:40,510 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:40,510 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:49:42,540 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:45,579 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:46,606 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:49:48,630 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:50,665 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:53,718 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:56,745 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:49:56,745 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:49:58,772 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:01,812 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:03,835 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:06,895 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:09,935 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:11,964 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:12,985 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:15,008 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:50:15,009 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:50:15,012 INFO    Thread-8  :16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_8.png
-2020-06-17 12:50:15,013 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:50:17,025 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:18,031 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:50:20,064 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:22,095 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:25,144 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:28,203 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:28,204 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:30,235 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:33,266 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:36,307 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:38,323 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:41,363 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:44,400 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:44,400 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:46,426 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:49,464 INFO    Thread-8  :16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:50:49,733 INFO    MainThread:16496 [run_manager.py:_sync_etc():1319] received message from user process: {"exitcode": 0}
-2020-06-17 12:50:49,735 INFO    MainThread:16496 [run_manager.py:_sync_etc():1406] closing log streams and sending exitcode to W&B
-2020-06-17 12:50:49,736 INFO    MainThread:16496 [run_manager.py:shutdown():1070] shutting down system stats and metadata service
-2020-06-17 12:50:50,116 INFO    MainThread:16496 [run_manager.py:shutdown():1084] stopping streaming files and file change observer
-2020-06-17 12:50:50,466 INFO    MainThread:16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:50,467 INFO    MainThread:16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:50:50,467 INFO    MainThread:16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:50:50,468 INFO    MainThread:16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:50:50,468 INFO    MainThread:16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:50,469 INFO    MainThread:16496 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_9.png
-2020-06-17 12:50:50,469 INFO    MainThread:16496 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:50:55,271 INFO    MainThread:16496 [run_manager.py:_sync_etc():1425] rendering summary
-2020-06-17 12:50:55,280 INFO    MainThread:16496 [run_manager.py:_sync_etc():1457] syncing files to cloud storage
-2020-06-17 13:09:26,881 INFO    MainThread:16496 [run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/lorenz-gunreben/cnn_test/runs/3rz4aykk
-00617_104430-3rz4aykk\output.log
-2020-06-17 12:50:25,144 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:28,203 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:28,204 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:30,235 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:33,266 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:36,307 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:38,323 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:41,363 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:44,400 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:44,400 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:46,426 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:49,464 INFO    Thread-8  :16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:50:49,733 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_sync_etc():1319] received message from user process: {"exitcode": 0}
-2020-06-17 12:50:49,735 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_sync_etc():1406] closing log streams and sending exitcode to W&B
-2020-06-17 12:50:49,736 INFO    MainThread:16496 [3rz4aykk:run_manager.py:shutdown():1070] shutting down system stats and metadata service
-2020-06-17 12:50:50,116 INFO    MainThread:16496 [3rz4aykk:run_manager.py:shutdown():1084] stopping streaming files and file change observer
-2020-06-17 12:50:50,466 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\output.log
-2020-06-17 12:50:50,467 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-history.jsonl
-2020-06-17 12:50:50,467 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-events.jsonl
-2020-06-17 12:50:50,468 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-summary.json
-2020-06-17 12:50:50,468 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\wandb-metadata.json
-2020-06-17 12:50:50,469 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images\examples_9.png
-2020-06-17 12:50:50,469 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\Documents\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200617_104430-3rz4aykk\media\images
-2020-06-17 12:50:55,271 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_sync_etc():1425] rendering summary
-2020-06-17 12:50:55,280 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_sync_etc():1457] syncing files to cloud storage
-2020-06-17 13:09:26,881 INFO    MainThread:16496 [3rz4aykk:run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/lorenz-gunreben/cnn_test/runs/3rz4aykk
+2020-06-25 14:58:52,029 DEBUG   MainThread:18580 [wandb_config.py:_load_defaults():133] no defaults not found in config-defaults.yaml
+2020-06-25 14:58:52,216 DEBUG   MainThread:18580 [meta.py:_setup_code_git():49] probe for git information
+2020-06-25 14:58:52,430 DEBUG   MainThread:18580 [run_manager.py:__init__():547] Initialized sync for cnn_test/355ziruv
+2020-06-25 14:58:52,433 INFO    MainThread:18580 [run_manager.py:wrap_existing_process():1147] wrapping existing process 19660
+2020-06-25 14:58:52,516 INFO    MainThread:18580 [run_manager.py:init_run():926] system metrics and metadata threads started
+2020-06-25 14:58:52,516 INFO    MainThread:18580 [run_manager.py:init_run():965] upserting run before process can begin, waiting at most 10 seconds
+2020-06-25 14:58:52,713 INFO    Thread-21 :18580 [run_manager.py:_upsert_run():1054] saving pip packages
+2020-06-25 14:58:52,714 INFO    Thread-21 :18580 [run_manager.py:_upsert_run():1056] initializing streaming files api
+2020-06-25 14:58:52,715 INFO    Thread-21 :18580 [run_manager.py:_upsert_run():1063] unblocking file change observer, beginning sync with W&B servers
+2020-06-25 14:58:52,715 INFO    MainThread:18580 [run_manager.py:wrap_existing_process():1164] informing user process we are ready to proceed
+2020-06-25 14:58:52,718 INFO    MainThread:18580 [run_manager.py:_sync_etc():1296] entering loop for messages from user process
+2020-06-25 14:58:53,210 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\config.yaml
+2020-06-25 14:58:53,427 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-metadata.json
+2020-06-25 14:58:53,427 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\requirements.txt
+2020-06-25 14:58:53,428 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:58:54,135 INFO    MainThread:18580 [run_manager.py:_sync_etc():1319] received message from user process: {"save_policy": {"glob": "model-best.h5", "policy": "live"}}
+2020-06-25 14:58:56,210 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\media\graph\graph_summary_0d33a894.graph.json
+2020-06-25 14:58:56,210 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:58:56,212 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\media\graph
+2020-06-25 14:58:56,213 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\media
+2020-06-25 14:58:59,212 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:01,214 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:01,220 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:01,225 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\model-best.h5
+2020-06-25 14:59:02,215 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:04,218 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\model-best.h5
+2020-06-25 14:59:04,218 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:04,218 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:05,220 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:07,221 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:07,221 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\model-best.h5
+2020-06-25 14:59:07,221 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:07,226 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:09,224 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-metadata.json
+2020-06-25 14:59:10,226 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:10,226 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\model-best.h5
+2020-06-25 14:59:10,226 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:10,232 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:12,228 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:13,229 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:13,229 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:15,231 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:16,232 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\model-best.h5
+2020-06-25 14:59:16,232 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:16,232 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:18,234 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:19,236 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:19,236 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:21,237 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:21,237 INFO    Thread-8  :18580 [run_manager.py:_on_file_created():681] file/dir created: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-events.jsonl
+2020-06-25 14:59:22,239 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:22,239 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:23,241 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:25,243 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-metadata.json
+2020-06-25 14:59:25,243 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:25,243 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:26,245 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:27,972 INFO    MainThread:18580 [run_manager.py:_sync_etc():1319] received message from user process: {"exitcode": 0}
+2020-06-25 14:59:27,973 INFO    MainThread:18580 [run_manager.py:_sync_etc():1406] closing log streams and sending exitcode to W&B
+2020-06-25 14:59:27,973 INFO    MainThread:18580 [run_manager.py:shutdown():1070] shutting down system stats and metadata service
+2020-06-25 14:59:28,248 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\output.log
+2020-06-25 14:59:28,248 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-events.jsonl
+2020-06-25 14:59:28,248 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-history.jsonl
+2020-06-25 14:59:28,249 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-summary.json
+2020-06-25 14:59:28,546 INFO    MainThread:18580 [run_manager.py:shutdown():1084] stopping streaming files and file change observer
+2020-06-25 14:59:29,249 INFO    Thread-8  :18580 [run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-metadata.json
+2020-06-25 14:59:30,392 INFO    MainThread:18580 [run_manager.py:_sync_etc():1425] rendering summary
+2020-06-25 14:59:30,405 INFO    MainThread:18580 [run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2020-06-25 14:59:32,160 INFO    MainThread:18580 [run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/lorenz-gunreben/cnn_test/runs/355ziruv
+18580 [355ziruv:run_manager.py:shutdown():1084] stopping streaming files and file change observer
+2020-06-25 14:59:29,249 INFO    Thread-8  :18580 [355ziruv:run_manager.py:_on_file_modified():692] file/dir modified: C:\Users\logun\OneDrive\Dokumente\BildverarbeitungSoSe20\BildverarbeitungSoSe20\wandb\run-20200625_125850-355ziruv\wandb-metadata.json
+2020-06-25 14:59:30,392 INFO    MainThread:18580 [355ziruv:run_manager.py:_sync_etc():1425] rendering summary
+2020-06-25 14:59:30,405 INFO    MainThread:18580 [355ziruv:run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2020-06-25 14:59:32,160 INFO    MainThread:18580 [355ziruv:run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/lorenz-gunreben/cnn_test/runs/355ziruv

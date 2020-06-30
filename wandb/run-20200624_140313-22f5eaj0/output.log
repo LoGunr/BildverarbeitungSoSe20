@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "plot_mnist_array.py", line 22, in <module>
+    config.gpu_options.allow_growth = True
+  File "Z:\Coding\Anaconda\lib\site-packages\wandb\wandb_config.py", line 235, in __getattr__
+    return self.__getitem__(key)
+  File "Z:\Coding\Anaconda\lib\site-packages\wandb\wandb_config.py", line 225, in __getitem__
+    return self._items[key]
+KeyError: 'gpu_options'

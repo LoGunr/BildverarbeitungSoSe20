@@ -1,0 +1,23 @@
+{
+    "root": "C:/Users/logun/OneDrive/Dokumente/BildverarbeitungSoSe20/BildverarbeitungSoSe20",
+    "program": "plot_mnist_array.py",
+    "git": {
+        "remote": "https://github.com/LoGunr/BildverarbeitungSoSe20.git",
+        "commit": "e7652d32092f94ff62c11aee0e94d82c25200dff"
+    },
+    "email": "63962958+LoGunr@users.noreply.github.com",
+    "startedAt": "2020-06-25T12:41:20.285781",
+    "host": "DESKTOP-1EE62U8",
+    "username": "logun",
+    "executable": "Z:\\Coding\\Anaconda\\python.exe",
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.7",
+    "cpu_count": 16,
+    "args": [],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "project": "cnn_test",
+    "heartbeatAt": "2020-06-25T12:41:55.448754",
+    "exitcode": 0
+}

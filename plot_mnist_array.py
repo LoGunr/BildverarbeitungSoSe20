@@ -5,6 +5,7 @@ Created on Tue Jun 16 17:41:12 2020
 @author: logun
 """
 
+import matplotlib.pyplot as plt
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D
@@ -49,7 +50,7 @@ X_test /= 255
 model = Sequential()
 
 ##
-model.add(Conv2D(28, kernel_size=(3,3), input_shape = input_shape))
+model.add(Conv2D(28, kernel_size=(3,3), input_shape = input_shape, activation="relu"))
 #model.add(Conv2D(32,
 #    (config.first_layer_conv_width, config.first_layer_conv_height),
 #    input_shape=input_shape,
@@ -57,10 +58,11 @@ model.add(Conv2D(28, kernel_size=(3,3), input_shape = input_shape))
 
 
 ##Pooling: Shrinks Image
-model.add(MaxPooling2D(pool_size = (2,2)))
+model.add(MaxPooling2D(pool_size = (3,3)))
 model.add(Flatten())
 model.add(Dense(128, activation =tf.nn.relu))
 model.add(Dropout(0.2))
+#10 is number of outputs
 model.add(Dense(10, activation = tf.nn.softmax))
 
 #sparse optional:
@@ -70,3 +72,8 @@ model.compile(loss='sparse_categorical_crossentropy', optimizer='adam',
 # Fit the model
 model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test),
                     callbacks=[WandbCallback(labels=labels, data_type="image")])
+
+image_index = 4444
+plt.imshow(X_test[image_index].reshape(28, 28),cmap = plt.get_cmap("gray"))
+pred = model.predict(X_test[image_index].reshape(1, 28, 28 , 1))
+print(pred.argmax ())
